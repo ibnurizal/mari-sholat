@@ -1,0 +1,131 @@
+body {
+    background: rgb(28, 28, 28);
+}
+p, h1, h2, h3{
+    margin: 0;
+    padding: 0;
+}
+
+header .l,
+header .c,
+header .r{
+    color: #FFF;
+    padding: 30px 30px 15px !important;
+}
+header .l {
+    text-align: left;
+}
+header .c {
+    text-align: center;
+}
+header .r {
+    text-align: right;
+}
+header .r h2{
+    font-size: 200%;
+}
+header {
+    background: rgba(0, 0, 0, 0.2);
+    background-image: url("../");
+    height: calc(100vh - 240.27px);
+}
+.time-box div{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    padding: 5px 10px 5px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #29292978;
+    color: #ffb820;
+    text-align: center;
+}
+.time-box div:after{
+    content: ':';
+    position: relative;
+    left: 25px;
+}
+.time-box div:first-child{
+    padding: 5px 10px 5px 20px;
+}
+.time-box div:last-child{
+    padding: 5px 15px 5px 15px;
+}
+.time-box div:last-child:after{
+    content: '' !important;
+}
+.date-indo {
+    color: #ffb820;
+    font-size: 150%;
+}
+.cards .lds-ellipsis {
+    margin-top: -17px;
+}
+.waktu-sholat {
+    height: 43px;
+    line-height: 18px;
+    font-size: 174%;
+    color: #6f6f6f;
+}
+.jadwal-sholat {
+    font-size: 154%;
+    color: #6f6f6f;
+}
+.ui.cards {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.ui.cards>.card {
+    display: inline-block;
+    width: 144px ;
+}
+.bismillah {
+    font-size: 31px;
+    color: #ffb820;
+    font-weight: 100;
+}
+.runningText {
+    padding: 18px 0;
+    background: rgba(43, 43, 43, 0.8);
+    clear: both;
+    display: inline-flex;
+    width: 100%;
+}
+.runningText #marquee {
+    width: 100%;
+    font-size: 20px;
+}
+.runningText p span {
+    font-weight: normal;
+    font-size: 25px;
+}
+h2.time-box {
+    margin-top: 12px;
+}
+.card.active .content {
+    background: #ffb820 !important;
+    font-weight: bold;
+    font-size: 123% !important;
+    color: #000 !important;
+}
+
+.card.active {
+    border: 0 !important;
+    box-shadow: none !important;
+}
+.reminder {
+    text-align: center;
+    color: #FFF;
+    background: #000000d4;
+    padding: 10px 0 20px;
+    margin-top: 35px;
+}
+.reminder .time-box {
+    font-size: 350%;
+    color: #ffb820;
+}
+.reminder .desc-box {
+    font-weight: lighter;
+    font-size: 150%;
+}
