@@ -1,2 +1,5 @@
 # MariSholat
-MariSholat adalah aplikasi open source sebagai ladang beramal bagi pada developher dalam mencari pahala.
+
+Assalammualaikum wr.wb, 
+
+MariSholat adalah aplikasi open source pengingat jadwal sholat.
