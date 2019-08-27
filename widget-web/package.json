@@ -10,6 +10,7 @@
     "react-dom": "^16.8.6",
     "react-html-parser": "^2.0.2",
     "react-scripts": "^3.0.1",
+    "react-web-notification": "^0.6.1",
     "redux": "^4.0.4"
   },
   "devDependencies": {},

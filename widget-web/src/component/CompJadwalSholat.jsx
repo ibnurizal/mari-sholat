@@ -39,7 +39,16 @@ class CompJadwalSholat extends Component {
                 });
 
             }
-        });
+        }, (res) => {
+            alert('Opps, Please check your connection.');
+            setTimeout(() => {
+                this.setState({
+                    countReloadPage: this.state.countReloadPage + 1
+                },()=> {
+                    this.handleGetData();
+                });
+            }, 10000)
+        } );
     }
 
     componentDidMount() {
